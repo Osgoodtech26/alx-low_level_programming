@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
  * main - Ogood peter
  * prints _putchar, followed by a new line.
