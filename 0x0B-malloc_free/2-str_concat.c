@@ -6,7 +6,6 @@
  * str_concat - concatenates two strings.
  * @s1: first string
  * @s2: second string
- *
  * Return: a pointer to a newly allocated space in memory which
  * contains the contents of s1, followed by the contents of s2,
  * and null terminated. NULL on failure
