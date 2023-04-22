@@ -3,14 +3,14 @@
 /**
  * sum_them_all - adds all the numbers
  * @n: the number of parameters passed
- * owned by osgoodtech26
+ *
  * Return: Always 0
  */
 
 int sum_them_all(const unsigned int n, ...)
 {
 	int sum;
-	unsigned int i;
+	unsigned int z;
 	va_list ap;
 
 	va_start(ap, n);
@@ -18,7 +18,7 @@ int sum_them_all(const unsigned int n, ...)
 	if (n == 0)
 		return (0);
 
-	for (i = 0; i < n; i++)
+	for (z = 0; z < n; z++)
 		sum += va_arg(ap, int);
 
 	va_end(ap);
