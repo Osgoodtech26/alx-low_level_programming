@@ -6,7 +6,6 @@
 /**
  * print_list - prints all the element of the list_t list
  * @h: the list_t list
- * owned by osgoodtech26
  *
  * Return: the number of nodes
  */
@@ -14,7 +13,7 @@ size_t print_list(const list_t *h)
 {
 	int count = 0;
 
-	while (h != NULL)
+	while (h)
 	{
 
 		if (h->str == NULL)
